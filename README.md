@@ -7,7 +7,7 @@
 - [Liscense](#Liscense)
 - [Author Info](#Author-Info)
 
-### Description-
+### Description
 A multi-section landing page with a dynamical updating navagational menu based the amount of content added to the page.
 
 ### References
