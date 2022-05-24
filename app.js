@@ -41,19 +41,14 @@ for(let section of sections){
 
 // Add eventListener to current section 
 window.addEventListener('scroll',  () => {
-
-  
-       sections.forEach(section => {
-        let sectionView = true;
-          const bounds = section.getBoundingClientRect();
-         //     Highlight corresponding nav section when in viewpoint
+  sections.forEach(section => {
+       let sectionView = true;
+       const bounds = section.getBoundingClientRect();
+         // Highlight corresponding nav section when in viewpoint
       if (bounds.top > 0 && bounds.bottom < window.innerHeight) {
             sectionView = true;
-            
-
-      // Add active class  to  nav items
-   
-           section.classList.add('active')
+        // Add active class  to  nav items
+          section.classList.add('active')
          }
          else{
            section.classList.remove('active');
