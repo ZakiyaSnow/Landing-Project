@@ -1,11 +1,11 @@
 // Global Variables
 const sections = document.querySelectorAll('section');
 const navbar = document.getElementById('navbar_list');
+
 // Build nav menu based on the number of sections in the document
 
 for(let section of sections){
   const navli = document.createElement('li');
-  
   const link = document.createElement('a');
  link.classList.add('menu__link');
  link.innerText = section.getAttribute('data-nav');
