@@ -180,8 +180,6 @@ section:nth-of-type(3n + 1) .landing__container::after {
     opacity: 0;
     transition: ease 0.5s all;
 }
-.active__nav{
-	background-color: yellow;
 
 
 /* ---- Theme State Rules ---- */
@@ -201,7 +199,9 @@ section.active .landing__container::after {
     opacity: 1;
     animation: rotate 5s linear 0s infinite forwards reverse;
 }
-
+.active__nav{
+	background-color: yellow;
+	}
 /* Section Active Styles Keyframe Animations */
 @keyframes rotate {
 	from {
