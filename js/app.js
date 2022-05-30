@@ -25,10 +25,10 @@ window.addEventListener('scroll',  () => {
       if (bounds.top > 0 && bounds.bottom < window.innerHeight) {
             sectionView = true;
         // Add active class  to  nav items
-          section.classList.add('active')
+          section.classList.add('active__nav')
          }
          else{
-           section.classList.remove('active');
+           section.classList.remove('active__nav');
          
         }
    })
