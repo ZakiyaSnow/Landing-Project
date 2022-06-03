@@ -12,6 +12,7 @@ A multi-section landing page, with a dynamical updating navagational menu based 
 
 ### References
 https://www.youtube.com/watch?v=RsPWEmfOQdUReferences
+
 https://stackoverflow.com/
 
 
